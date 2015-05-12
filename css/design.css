@@ -119,7 +119,7 @@ select {
   width: 100%; }
   
   
-  
+.sidebar left {float:left;}
   
   
   
@@ -237,6 +237,62 @@ select {
 .section { alignment-adjust:central; alignment-adjust:middle; height:inherit;}
 
 
+.panel2 {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d8d8d8;
+	margin-bottom: 1.25rem;
+	padding: 1.25rem;
+	color: #333333;
+	background-color: #CCCCCC;
+
+}
+
+
+.sidebarright{
+	background-color: #4d4d4d;
+	color: white;
+	float: right;
+	width:33.333333333%;
+}
+  .panel2 > :first-child {
+    margin-top: 0; }
+  .panel2 > :last-child {
+    margin-bottom: 0; }
+  .panel2 h1, .panel2 h2, .panel2 h3, .panel2 h4, .panel2 h5, .panel2 h6, .panel2 p, .panel2 li, .panel2 dl {
+    color: #333333; }
+  .panel2 h1, .panel2 h2, .panel2 h3, .panel2 h4, .panel2 h5, .panel2 h6 {
+    line-height: 1;
+    margin-bottom: 0.625rem; }
+    .panel2 h1.subheader, .panel2 h2.subheader, .panel2 h3.subheader, .panel2 h4.subheader, .panel2 h5.subheader, .panel2 h6.subheader {
+      line-height: 1.4; }
+  .panel2.callout {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b6edff;
+    margin-bottom: 1.25rem;
+    padding: 1.25rem;
+    background: #ecfaff;
+    color: #333333; }
+    .panel2.callout > :first-child {
+      margin-top: 0; }
+    .panel2.callout > :last-child {
+      margin-bottom: 0; }
+    .panel2.callout h1, .panel2.callout h2, .panel2.callout h3, .panel2.callout h4, .panel2.callout h5, .panel2.callout h6, .panel2.callout p, .panel2.callout li, .panel2.callout dl {
+      color: #333333; }
+    .panel2.callout h1, .panel2.callout h2, .panel2.callout h3, .panel2.callout h4, .panel2.callout h5, .panel2.callout h6 {
+      line-height: 1;
+      margin-bottom: 0.625rem; }
+      .panel2.callout h1.subheader, .panel2.callout h2.subheader, .panel2.callout h3.subheader, .panel2.callout h4.subheader, .panel2.callout h5.subheader, .panel2.callout h6.subheader {
+        line-height: 1.4; }
+    .panel2.callout a:not(.button) {
+      color: #008CBA; }
+      .panel2.callout a:not(.button):hover, .panel2.callout a:not(.button):focus {
+        color: #0078a0; }
+  .panel2.radius {
+    border-radius: 3px; }
+
+
 .row {
   width: 100%;
   margin-left: auto;
@@ -278,7 +334,8 @@ select {
       .row .row.collapse:after {
         clear: both; }
 
-.column,
+  
+  .column,
 .columns {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
